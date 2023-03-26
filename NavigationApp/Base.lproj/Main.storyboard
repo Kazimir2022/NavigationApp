@@ -21,9 +21,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="К зеленой сцене"/>
-                                <connections>
-                                    <segue destination="MVa-UN-SG4" kind="show" id="dA1-O7-LRc"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mSp-GE-Wdq"/>
@@ -48,9 +45,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="К желтой сцене"/>
-                                <connections>
-                                    <segue destination="TAc-4o-XI8" kind="show" id="FY9-jG-Q1q"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rKa-68-keL"/>
