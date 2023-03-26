@@ -25,6 +25,15 @@
                                     <action selector="toGreenScene:" destination="I0I-0q-SiS" eventType="touchUpInside" id="HhZ-nt-BBF"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wjj-8E-Dl5">
+                                <rect key="frame" x="88" y="658" width="215" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="К предыдущему экрану"/>
+                                <connections>
+                                    <action selector="toPreviousScene:" destination="I0I-0q-SiS" eventType="touchUpInside" id="3vx-70-L4X"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mSp-GE-Wdq"/>
                         <color key="backgroundColor" systemColor="systemRedColor"/>
@@ -52,6 +61,15 @@
                                     <action selector="toYellowScene:" destination="MVa-UN-SG4" eventType="touchUpInside" id="gTo-26-fh9"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NbM-r6-BIR">
+                                <rect key="frame" x="88" y="664" width="215" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="К предыдущему экрану"/>
+                                <connections>
+                                    <action selector="toPreviousScene:" destination="MVa-UN-SG4" eventType="touchUpInside" id="G0j-eY-Cgu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rKa-68-keL"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
@@ -77,6 +95,15 @@
                                 <buttonConfiguration key="configuration" style="plain" title="К корневой сцене"/>
                                 <connections>
                                     <action selector="toRootScene:" destination="TAc-4o-XI8" eventType="touchUpInside" id="vjN-ah-rwU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAy-om-Mqh">
+                                <rect key="frame" x="103" y="665" width="215" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="К предыдущему экрану"/>
+                                <connections>
+                                    <action selector="toPreviousScene:" destination="TAc-4o-XI8" eventType="touchUpInside" id="MNa-cA-t2d"/>
                                 </connections>
                             </button>
                         </subviews>
