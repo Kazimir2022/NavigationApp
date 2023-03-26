@@ -11,7 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       self.navigationItem.prompt = "Подсказка"
+        self.navigationItem.title = "Заголовок сцены"
+        self.navigationItem.backButtonTitle = "Назад"
+
+        
     }
     // Ссылка на сториборд, где размещен данный ViewController
     let storyboardInstance = UIStoryboard(name: "Main", bundle: nil)
